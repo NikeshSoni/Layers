@@ -7,6 +7,14 @@
     --light-gray:#c9c6c1;
     --icon-color:#b8b3af;
   }
+
+     
+
+
+        .comman-links:hover{
+              color: #fff !important;
+              transition: .5s;
+        }
  
 
       .tamato-color{
@@ -50,22 +58,17 @@
 
         .comman-child-position {
               position: absolute;
-              z-index: 999;
+              z-index: 1;
+              
            }
 
-
-
-
-
            .btn-book{
-            padding: 10px 14px;
-            width: 35%;
-            border-radius: 10px;
-            border: 2px solid #3c67e3;
-            background-color: black;
-
-            
-            }
+                    padding: 10px 14px;
+                    width: 35%;
+                    border-radius: 10px;
+                    border: 2px solid #3c67e3;
+                    background-color: black;
+             }
 
             .btn-book:hover{
                 animation: book-btn 1s 
@@ -80,8 +83,6 @@
                 }
                 
             }
-
-
 
             .text-clip {
                 // background-image: url(https://alogic.co/media/catalog/product/cache/d1cc151…/m/e/media-17732.jpg);
